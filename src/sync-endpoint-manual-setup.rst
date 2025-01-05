@@ -65,12 +65,15 @@ Setup instructions:
   .. code-block:: console
 
     $ cd sync-endpoint
+  .. note::
+
+     You may also use the autosetup found in the root directory of the repository :guilabel:`init-odkx-sync-endpoint.py` to setup automatically
 	
   5. Build sync endpoint by running the following: (NOTE: you will need Apache Maven installed >= 3.3.3)
   
   .. code-block:: console
 
-    $ mvn clean install
+    $ mvn clean install -DskipTests
 	
   6. Navigate back to the parent "sync-endpoint-default-setup" directory. 
   
